@@ -23,7 +23,7 @@ public static int[][] solve(int[][] A){
     return A;
 }
     public static void main(String[] args){
-        int[][] A = {{1,2,3},{8,9,10},{12,67,90}};
+        int[][] A = {{1,2,3},{4,5,6},{7,8,9}};
         int[][] result = solve(A);
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result[i].length; j++) {

@@ -13,7 +13,7 @@ public class PickFromBothSides {
     }*/
         int n = A.length;
         int[] psum = new int[n];
-        int[] ssum = new int[n+1];
+        int[] ssum = new int[n];
         psum[0] = A[0];
         ssum[n-1] = A[n - 1];
         for(int i=1;i<n;i++){
